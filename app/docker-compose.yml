@@ -7,7 +7,7 @@ services:
       PLANDEX_DB: $PLANDEX_DB
       PLANDEX_USER: $PLANDEX_USER
       PLANDEX_PASSWORD: $PLANDEX_PASSWORD
-      #PGDATA: /var/lib/postgresql/data/pgdata
+      PGDATA: /var/lib/postgresql/data/pgdata
     ports:
       - "5432:5432"
     volumes:
