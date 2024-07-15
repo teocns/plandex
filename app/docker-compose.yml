@@ -12,6 +12,7 @@ services:
     networks:
       - plandex-network
   plandex-server:
+    platform: linux/amd64
     build:
       context: .
       dockerfile: Dockerfile.server
